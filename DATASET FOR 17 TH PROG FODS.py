@@ -1,0 +1,21 @@
+import pandas as pd
+
+# Sample feedback entries
+data = {
+    'feedback': [
+        "The product is amazing and works like a charm!",
+        "I love the design, but the battery life is short.",
+        "Customer service is excellent and very responsive.",
+        "The app crashes often and is full of bugs.",
+        "Great value for money. Highly recommended!",
+        "Not satisfied with the delivery time and packaging.",
+        "The interface is clean and easy to use.",
+        "Terrible experience. Will not buy again.",
+        "Fast shipping and good quality product.",
+        "The support team is helpful and quick to respond."
+    ]
+}
+
+df = pd.DataFrame(data)
+df.to_csv("data.csv", index=False)
+print("Sample dataset 'data.csv' created.")
