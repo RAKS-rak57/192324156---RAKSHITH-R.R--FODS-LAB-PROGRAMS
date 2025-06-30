@@ -1,0 +1,5 @@
+Customer Name,Items,Prices,Quantities,Discount (%),Tax (%)
+Alice,"['Milk', 'Bread']","[40, 30]","[2, 1]",10,5
+Bob,"['Eggs', 'Juice']","[60, 80]","[1, 2]",5,5
+Charlie,"['Rice', 'Oil']","[100, 120]","[3, 2]",15,5
+Diana,"['Fruits', 'Snacks']","[50, 70]","[2, 3]",8,5
